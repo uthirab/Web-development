@@ -1,0 +1,90 @@
+<head>
+<style>
+h1 { background-color:purple;}
+p{color:red; front-size:25px; front-family:arial;}
+</style>
+</head>
+
+properties
+border-botton:1px solid black;
+
+Css inheritance
+HTML
+|
+head  \body
+|
+h1 p p h2
+add property to parent, child inherits the same property
+
+class
+p.classname{
+property
+}
+
+In body
+<body>
+<p class= "classname">
+content</p>
+aquires the properities of above mentioned class
+
+<p class="classname"> content
+<blockquote>
+content  #this content will not hold the properties of the class
+</blockquote>
+</p>
+
+in order to have the properties of another class
+<blockquote class= "newclassname">
+
+for underline
+.underline{
+text-decoration:underline
+}
+<p class blue underline>
+
+Font
+font family: verdana, arial, geneva, arial black
+body{
+font-weight:lighter; } (normal,body, bolder)
+
+style sheet
+1. internal style sheet - good for one page
+2. External style sheet -if it has many pages
+3. Inline style sheet - directly into html code
+
+external style sheet -> sheetname.css
+no need <style> tag
+body{
+}
+<link rel= "stylesheet"type="text/css" href="name.css">
+
+Text decoration property
+line-through-strike
+overline-text
+font style:italic/oblique
+
+webcolors 
+-16 primary colors
+-rbg values
+-hexa code
+
+Background-color:lime; or rgb(34,34,54); or #ffcf79;
+
+Inline style
+<p style= "color:black; front-size=25px;">content</p>
+
+font size
+px- pixel
+%- increased by' ' %
+em- increased by ' ' em
+keywords
+xx-small
+x-small
+small-13px
+medium-16px
+large-18px
+x-large
+xx-large
+
+Line height property
+line-height:15em
