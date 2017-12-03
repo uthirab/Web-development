@@ -1,1 +1,11 @@
-
+<script>
+Java script
+alert("hi there"); # pop up window with hello there appears
+console.log(" ") # to display msg in console
+"string"
+var name= "Hello" # assigning variable
+if(age<33) { 
+    alert("Young and beautiful")
+} else {
+   alert("go young ")
+}
