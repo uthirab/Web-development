@@ -15,6 +15,10 @@ Click me to display Date and Time.</button>
 <button onclick="document.getElementById('myImage').src='gold.jpg'">Turn it into golg</button>
 
 # to hide things
+style.display='none'
+# to over rule the hide
+style.display='block'
+
 <div>
 <p id="demo">TO hide the date.</p>
 <button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
