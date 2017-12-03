@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>My JavaScript</h2>
+<div>
+# to display date
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+<div>
+#Doggle with the images
+<button onclick="document.getElementById('myImage').src='silver.jpg'">Turn it into silver</button>
+<img id="myImage" src= "C:\Users\Admin\Documents\webpage\gold.jpg" style="width:100px" />
+<button onclick="document.getElementById('myImage').src='gold.jpg'">Turn it into golg</button>
+
+# to hide things
+<div>
+<p id="demo">TO hide the date.</p>
+<button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
+</div>
+</div>
+</div>
+
+
+
+</body>
+</html> 
+
