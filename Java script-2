@@ -27,6 +27,7 @@ style.display='block'
 </div>
 <script src="/js/myScript1.js"></script>
 
+document.write() - to write a document
 
 </body>
 </html> 
