@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<div id="wrapper">
+ <title>LEANEVENTOS</title>
+    <link rel="stylesheet" type="text/css" href="http://uthirabaskaran.uta.cloud/Assignment_2/Baskaran_leanevent/leanevent.css">
+<h4>
+	<nav class="header">
+		<img class="logo" src="http://uthirabaskaran.uta.cloud/Assignment_2/Baskaran_leanevent/imagenes/imagenes/logo-blanco.png" width=70 height =70>
+		<a class="logoname"> LEANEVENTOS</a>
+		<a style="float:right" class ="lo" href=http://uthirabaskaran.uta.cloud/Assignment_2/Baskaran_leanevent/buyfromus.php> Comprar Boletos </a>
+		<a style="float:right" class ="lo" href=http://uthirabaskaran.uta.cloud/Assignment_2/Baskaran_leanevent/login.php> Iniciar Sesion </a>
+		<a style="float:right" class ="lo" href=http://uthirabaskaran.uta.cloud/Assignment_2/Baskaran_leanevent/contactus.html> Contacto </a>
+		<a style="float:right" class ="lo" href=http://uthirabaskaran.uta.cloud/Assignment_2/Baskaran_leanevent/register.html> Registrate </a>
+		<a style="float:right" class ="lo" href=http://uthirabaskaran.uta.cloud/leanevento/hello-world/> Blog </a>
+		<a style="float:right" class ="lo" href=http://uthirabaskaran.uta.cloud/Assignment_2/Baskaran_leanevent/aboutus.php> Quienes Somos </a>
+		<a style="float:right"  class ="lo" href=http://uthirabaskaran.uta.cloud/Assignment_2/Baskaran_leanevent/homepage.php> Inicio </a>
+		</nav>
+	
+</h4>
+</div>
+</head>
+<body>
+<div id="wrapper">
+	<div class="aboutimg">
+		<div  style="position: relative; left: 0; top: 0;">
+			<img style="position:relative;top:0px;left:0px;"class="aboutimg1" src="http://uthirabaskaran.uta.cloud/Assignment_2/Baskaran_leanevent/imagenes/imagenes/bannerregistro.jpg" width=100% height=500>
+			<div class="centered"><h1> REGISTRATE <h1></DIV>
+				<div class="cent">
+					<a class="centered1" href=homepage.html> HOME </a>
+					<a class="centered2" href=register.html> Registrate </a>
+				</div>
+		</div>
+	</div>
+	
+	<div class="regindvi" >
+		<form class="regindiv"  onsubmit='return regind()' method="GET" action="http://uthirabaskaran.uta.cloud/Assignment_2/Baskaran_leanevent/regind.php">
+			<div class="indhead">
+			<label > Registro de Agente LEAN</label><br>
+			</div>
+			<hr>
+            <span id="who" name="who" value="agent"></span>
+			<div class="rowtable" >
+				<div class ="fcol">
+					<label class="fname">Correo</label><br>
+					<input class="reginput" id="email" name="email" type="text" placeholder="   Correo"   style="color:#000000;" required><br>
+					<label class="fname">Nombre</label><br>
+					<input class="reginput" id="fname" name="fname" type="text" placeholder="   Nombre"  style="color:#000000;" required>
+				</div>
+				<div class="scol">
+					<label class="fname">Contrasena</label><br>
+					<input class="reginput" id="password" name="password" type="text" placeholder="   Contrasena"  style="color:#000000;" required><br>
+					<label class="emailcontact1">Apellido</label><br>
+					<input class="reginput"  id="lname" name="lname" type="text" placeholder="   Apellido" style="color:#000000;" required>
+				</div>
+			</div>
+			
+			<div class="emailcontact" >
+				<label class="emailcontact1">Direccion</label><br>
+					<input class="emailinpt" id="address" name="address" type="text" placeholder="   Direccion" required>
+			</div>
+			
+			<div class="emailcontact" >
+				<label class="emailcontact1">Ciudad</label><br>
+					<input class="emailinpt"  id="city" name="city"  type="text" placeholder="   Ciudad" required>
+			</div>
+            <input type="hidden" id="who" name="who" value="Agent">
+
+			<div class="rowtable" >
+				<div class ="fcol">
+					<label class="fname">Estado</label><br>
+					<select class="dropdown" id = "Estado" name="state" >
+						   <option value=" ">Escoger</option>
+						   <option value="DIF">Distrito Federal</option>
+							<option value="AGS">Aguascalientes</option>
+							<option value="BCN">Baja California</option>
+							<option value="BCS">Baja California Sur</option>
+							<option value="CAM">Campeche</option>
+							<option value="CHP">Chiapas</option>
+							<option value="CHI">Chihuahua</option>
+							<option value="COA">Coahuila</option>
+							<option value="COL">Colima</option>
+							<option value="DUR">Durango</option>
+							<option value="GTO">Guanajuato</option>
+							<option value="GRO">Guerrero</option>
+							<option value="HGO">Hidalgo</option>
+							<option value="JAL">Jalisco</option>
+							<option value="MEX">M&eacute;xico</option>
+							<option value="MIC">Michoac&aacute;n</option>
+							<option value="MOR">Morelos</option>
+							<option value="NAY">Nayarit</option>
+							<option value="NLE">Nuevo Le&oacute;n</option>
+							<option value="OAX">Oaxaca</option>
+							<option value="PUE">Puebla</option>
+							<option value="QRO">Quer&eacute;taro</option>
+							<option value="ROO">Quintana Roo</option>
+							<option value="SLP">San Luis Potos&iacute;</option>
+							<option value="SIN">Sinaloa</option>
+							<option value="SON">Sonora</option>
+							<option value="TAB">Tabasco</option>
+							<option value="TAM">Tamaulipas</option>
+							<option value="TLX">Tlaxcala</option>
+							<option value="VER">Veracruz</option>
+							<option value="YUC">Yucat&aacute;n</option>
+							<option value="ZAC">Zacatecas</option>
+						</select>				
+				</div>
+				<div class="scol">
+					<label class="fname moveleft "> Codigo Postal</label><br>
+					<input class="reginput1" id="zip" name="zip" type="text" placeholder="   "  style="color:#000000;" required>
+
+				</div>
+			</div>
+			<div class="contactbutton">
+				<button class="btn-group1 moveleft">Registrarse</button>
+				<hr>
+				<button class="Cancelbutton moveright">Cerrar</button>
+			</div>
+		</form>
+
+</div>
+	<div class="footer">
+	<div class="footerhead"><center>LEAN EN LAS REDES SOCIAL</center></div>
+	<div class="social"><center>
+		<div class="insta">
+			<a class="tw" href="www.twitter.com/LeanEmergente" >  <img src="http://uthirabaskaran.uta.cloud/Assignment_2/Baskaran_leanevent/imagenes/parl/twiter.png" width=30px height=20px></a>
+			<a class="tw" href="www.facebook.com/LeanAyudaHamanitaria">  <img src="http://uthirabaskaran.uta.cloud/Assignment_2/Baskaran_leanevent/imagenes/parl/faceboo.png"  width=30px height=20px></a>
+			<a class="tw" href="www.instagram.com/LeanAyudaHamanitaria"><img src="http://uthirabaskaran.uta.cloud/Assignment_2/Baskaran_leanevent/imagenes/parl/insta.png" width=30px height=20px></a>
+		</div>
+			
+	</div>
+	<div class="lastline copyright"><p><center>Copyright&#169 2019. All rights reserved| This web is made with &#9825 by <span class="diaz"> DiazApps</span></center></div>
+	</div>
+</div>	
+<script>
+    
+function regind()                                    
+{ 
+    
+    var fname= document.getElementById("fname");
+    var lname= document.getElementById("lname");
+    var password= document.getElementById("password");
+    var email=document.getElementById("email");
+     
+    if(allletter(fname)){
+        if(allletter(lname)){
+            if(pass(password)){
+                if(mail(email)){        
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            }
+            else{
+                return false;
+            }
+        }
+        else{
+            return false;
+        }
+    }
+    else{
+        return false;
+    }
+}
+function allletter(x)
+    {
+    var regex = /^([a-zA-Z])+$/;
+    result= (regex.test(x.value));
+    if(result){
+        return true;
+    }else{
+        x.focus();
+        return false;
+    }    
+    }
+    
+function pass(z)
+    {
+    var len=z.value.length;
+    if(len>8){
+        return true;
+    }
+    else{
+        alert('Enter a password of minimumm length 8');
+        z.focus();
+        return false;
+        }
+    }
+    
+    
+function mail(y)
+{
+    alert(y.value);
+    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if(y.value.match(mailformat))
+    {
+        return true;
+    }
+    else
+    {
+        alert("You have entered an invalid email address!");
+        y.focus();
+        return false;
+    }
+
+}
+
+</script>
+
+</body>
+</html>
